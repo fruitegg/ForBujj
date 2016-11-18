@@ -19,3 +19,7 @@ class B:
         """ creates an appropriate string """
         s = self.p2
         return s 
+
+a = A(42)
+s = type(a).split('.')[-1]
+print(s)
